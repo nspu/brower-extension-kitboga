@@ -1,0 +1,15 @@
+language: bash
+
+script:
+- bash build.sh
+
+deploy:
+  provider: releases
+  api_key:
+    secure:
+      no-key
+  file: kitboga-extension.zip
+  skip_cleanup: true
+  on:
+    repo: no-repo
+    tags: true

@@ -1,0 +1,6 @@
+{
+  "title"       : { "message": "Kitboga" },
+  "description" : { "message": "Know when Kitboga is scam or not." },
+  "badge"       : { "message": "live" },
+  "notification": { "message": "Stream is live." }
+}
